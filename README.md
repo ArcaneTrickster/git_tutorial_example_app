@@ -56,7 +56,7 @@ add a file name inside .gitignore to ignore the specified file being accessed by
 
 * git remote           //to see all remote connections existing.
 
-*git push -u origin master     //to upload your project to github folder. with master as a branch.
+* git push -u origin master     //to upload your project to github folder. with master as a branch.
 
 * git clone <github link>   //to download a git project.
 
