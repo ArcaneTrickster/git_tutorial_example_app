@@ -58,11 +58,21 @@ add a file name inside .gitignore to ignore the specified file being accessed by
 
 * $ git merge <branch name>   //to merge a specified branch to the master branch.first switch to the master branch then use merge command.
 
+* $ git branch --merged   //to see merged branches.
+
+* $ git branch --no-merge  //to see branches which are not merged.
+
+* $ git branch -d <branch name>   //to delete a specified branch. git will give a warning message if the branch is not merged to master and ask you to rewrite command with a capital D again.
+
 * $ git remote add origin https://github.com/ArcaneTrickster/myappsample.git   // to add a remote connection for your project folder to another folder on github.
 
 * $ git remote           //to see all remote connections existing.
 
 * $ git push -u origin master     //to upload your project to github folder. with master as a branch.
+
+* $ git push origin <branch name>     //this will create a new branch of your branch name at remote repository and push the code.
+
+* $ git push origin <branch name>:<branch name at remote>    //this will create a new branch at remote repository with specified name and push the code.
 
 * $ git clone <github link>   //to download a git project.
 
