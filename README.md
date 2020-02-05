@@ -23,7 +23,12 @@ Reference from https://www.youtube.com/playlist?list=PLu0W_9lII9agwhy658ZPA0MTSt
 * $ git diff					   // to see the differences between your staged and unstaged/modified file(s).
 * $ git diff --staged			  	 // to see differences in every previous stages.
 * $ git commit 				   	// Comit Changes in index.
-* // for security plz add ssh. reference = "https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent".
+* // for security plz add ssh. reference = "https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" , "https://devmarketer.io/learn/set-ssh-key-github/"
+* //for ssh
+* $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" // -t = type,-b = byte size, -C = label
+* $ eval $(ssh-agent -s)  // to start ssh agent
+* $ ssh-add ~/.ssh/id_rsa  // this add/register the generated ssh to ssh agent
+* $ clip < ~/.ssh/id_rsa.pub  // to copy ssh text to clipboard
 * $ git commit -m "commit message"		//to commit with a message.
 * $ git commit -a -m "Direct commit"          // commit files directly,from tracked state. and skip the staging phase.
 * $ git rm "file name" or git mv "file name" "new file name" => {to change file names}    // having a git keyword before these type of command auto stages the output of command.
@@ -44,6 +49,9 @@ Reference from https://www.youtube.com/playlist?list=PLu0W_9lII9agwhy658ZPA0MTSt
 * $ git pull 				  // pull latest version of repo from remote repository.
 * $ rm -rf .git         			     // this will remove your .git folder and end all git services to your project.
 
+* // if you delete something on your project and want to move to previous state,use :-
+* $ git fetch origin master
+* $ git reset --hard FETCH_HEAD
 
 
 create a file with :- touch <file name>.
