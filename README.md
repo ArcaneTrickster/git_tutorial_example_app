@@ -1,5 +1,6 @@
-this is my app for git tutorial
+this is a dummy app for git tutorial
 
+download git from gitscm.com
 
 git commands shown are with $ prefix. your command start after '$'.
 -------------------------------------------
