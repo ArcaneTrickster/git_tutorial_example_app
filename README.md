@@ -2,7 +2,7 @@ this is a dummy app for git tutorial
 
 download git from gitscm.com and gitbash is the terminal i used here.
 
-git commands shown are with $ prefix. your command start after '$' and '//' is for commendd,not part of command.
+git commands shown are with $ prefix. your command start after '$' and '//' is for comments,not part of command.
 -------------------------------------------
 
 
