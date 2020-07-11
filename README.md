@@ -13,7 +13,8 @@ configure your username and email(just a local record)
 ----------------------------------------------------------
 
 * $ git init                 			   //initialize local git repository.
-* $ git add [file]				    // add file(s) To index,or to staging or to be tracked by git.
+* $ git add [file]				    // add file(s) To index,or to staging, or to be tracked by git. 
+									//git does not track you files unless you instruct git to do so. After files are tracked/staged/indexed, you can go further.
 * $ git add * $.[html]  				// to add all files with html extension to staging or be tracked by git.
 * $ git add .  or   git add --a   		  // to add all files.
 * $ git rm --cached [file name]  			//to remove a file from staging area.
