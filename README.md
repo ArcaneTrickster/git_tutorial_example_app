@@ -21,6 +21,7 @@ configure your username and email(just a local record)
 * $ git status 					    // check status of working tree.
 * $ git diff					   // to see the differences between your staged and unstaged/modified file(s).
 * $ git diff --staged			  	 // to see differences in every previous stages.
+* $ git reset 						// this will unstage all the staged/tracked files.
 * $ git commit 				   	// Comit Changes in index.
 * // for security plz add ssh. reference = "https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" , "https://devmarketer.io/learn/set-ssh-key-github/"
 
