@@ -11,13 +11,10 @@ configure your username and email(just a local record)
 * $ git config --global user.name "Pushkar Shrivastava"
 * $ git config --global user.email "pushkar.shv@gmail.com"
 ----------------------------------------------------------
-Reference from https://www.youtube.com/playlist?list=PLu0W_9lII9agwhy658ZPA0MTStKUJTWPi   sorry its in hindi.
-
-* If any point need more explaination then add a number at its end and discribe your explaination corresponding with the number in README2.md. and if i missed something then add a floating number(like 5.1,5.2,5.3......).
 
 * $ git init                 			   //initialize local git repository.
 * $ git add [file]				    // add file(s) To index,or to staging or to be tracked by git.
-* $ git add * $.[html]  				//to add all files with html extension to staging or be tracked by git.
+* $ git add * $.[html]  				// to add all files with html extension to staging or be tracked by git.
 * $ git add .  or   git add --a   		  // to add all files.
 * $ git rm --cached [file name]  			//to remove a file from staging area.
 * $ git status 					    // check status of working tree.
