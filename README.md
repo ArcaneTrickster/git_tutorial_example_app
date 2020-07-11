@@ -15,7 +15,7 @@ Reference from https://www.youtube.com/playlist?list=PLu0W_9lII9agwhy658ZPA0MTSt
 
 * If any point need more explaination then add a number at its end and discribe your explaination corresponding with the number in README2.md. and if i missed something then add a floating number(like 5.1,5.2,5.3......).
 
-* $ git int                 			   //initialize local git repository.
+* $ git init                 			   //initialize local git repository.
 * $ git add [file]				    // add file(s) To index,or to staging or to be tracked by git.
 * $ git add * $.[html]  				//to add all files with html extension to staging or be tracked by git.
 * $ git add .  or   git add --a   		  // to add all files.
