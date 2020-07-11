@@ -64,17 +64,17 @@ add a file name inside .gitignore to ignore the specified file being accessed by
 
 * $ git branch   // to see all branches you have.
 
-* $ git branch <branch name>     // to add a branch to your project.while you are in a branch,you cannot see any file created in other branches.
+* $ git branch [branch name]     // to add a branch to your project.while you are in a branch,you cannot see any file created in other branches.
 
-* $ git checkout <branch name>    // to switch to the specified branch...by defaulf all projects have a master branch.
+* $ git checkout [branch name]    // to switch to the specified branch...by defaulf all projects have a master branch.
 
-* $ git merge <branch name>   //to merge a specified branch to the master branch.first switch to the master branch then use merge command.
+* $ git merge [branch name]   //to merge a specified branch to the master branch.first switch to the master branch then use merge command.
 
 * $ git branch --merged   //to see merged branches.
 
 * $ git branch --no-merge  //to see branches which are not merged.
 
-* $ git branch -d <branch name>   //to delete a specified branch. git will give a warning message if the branch is not merged to master and ask you to rewrite command with a capital D again.
+* $ git branch -d [branch name]   //to delete a specified branch. git will give a warning message if the branch is not merged to master and ask you to rewrite command with a capital D again.
 
 * $ git remote add origin https://github.com/ArcaneTrickster/myappsample.git   // to add a remote connection for your project folder to another folder on github.
 * $ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git    // to update an existing link.
