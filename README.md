@@ -22,11 +22,10 @@ configure your username and email(just a local record)
 * $ git diff					   // to see the differences between your staged and unstaged/modified file(s).
 * $ git diff --staged			  	 // to see differences in every previous stages.
 * $ git reset 						// this will unstage all the staged/tracked files.
-* $ git commit 				   	// Comit Changes in index.
 * // for security plz add ssh. reference = "https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" , "https://devmarketer.io/learn/set-ssh-key-github/"
 
 * // for ssh
-* $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" // -t = type,-b = byte size, -C = label
+* $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" // -t = type,-b = byte size, -C = label, It will asks you a few things like what should be the file name in which you want to save the shh key. I use multiple files for multiple accounts, each for each github account.
 * $ eval $(ssh-agent -s)  // to start ssh agent
 * $ ssh-add ~/.ssh/id_rsa  // this add/register the generated ssh to ssh agent
 * $ clip  ~/.ssh/id_rsa.pub  // to copy ssh text to clipboard
