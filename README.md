@@ -6,7 +6,7 @@ git commands shown are with $ prefix. your command start after '$' and '//' is f
 -------------------------------------------
 
 
-configure your username and email(just a local record)
+configure your username and email(just a local record) so your uploads are marked with your name and email.
 
 * $ git config --global user.name "Pushkar Shrivastava"
 * $ git config --global user.email "pushkar.shv@gmail.com"
@@ -16,7 +16,7 @@ configure your username and email(just a local record)
 * $ git add [file]				    // add file(s) To index,or to staging, or to be tracked by git. 
 									//git does not track you files unless you instruct git to do so. After files are tracked/staged/indexed, you can go further.
 * $ git add * $.[html]  				// to add all files with html extension to staging or be tracked by git.
-* $ git add .  or   git add --a   		  // to add all files.
+* $ git add .  or   git add --a   		  // to add all files for staging.
 * $ git rm --cached [file name]  			//to remove a file from staging area.
 * $ git status 					    // check status of working tree.
 * $ git diff					   // to see the differences between your staged and unstaged/modified file(s).
