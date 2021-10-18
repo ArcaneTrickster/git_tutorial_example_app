@@ -1,6 +1,6 @@
 this is a dummy app for git tutorial
 
-also see https:```guides.github.com/features/mastering-markdown/ for markdown guide.
+also see https://guides.github.com/features/mastering-markdown/ for markdown guide.
 
 download git from gitscm.com and gitbash is the terminal i used here.
 
@@ -21,14 +21,14 @@ configure your username and email(just a local record) so your uploads are marke
 * ``` git diff					   ``` to see the differences between your staged and unstaged/modified file(s).
 * ``` git diff --staged			  	 ``` to see differences in every previous stages.
 * ``` git reset 						``` this will unstage all the staged/tracked files.
-* ``` for security plz add ssh. reference = "https:```help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" , "https:```devmarketer.io/learn/set-ssh-key-github/"
+* for security plz add ssh. reference = "https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" , "https://devmarketer.io/learn/set-ssh-key-github/"
 
 * for ssh
 * ``` ssh-keygen -t rsa -b 4096 -C "your_email@example.com" ``` -t = type,-b = byte size, -C = label, It will asks you a few things like what should be the file name in which you want to save the shh key. I use multiple files for multiple accounts, each for each github account.
 * ``` eval ```(ssh-agent -s)  ``` to start ssh agent
 * ``` ssh-add ~/.ssh/id_rsa  ``` this add/register the generated ssh to ssh agent
 * ``` clip  ~/.ssh/id_rsa.pub  ``` to copy ssh text to clipboard
-* ``` next part of ssh is on reference = "https:```help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" , "https:```devmarketer.io/learn/set-ssh-key-github/"
+* next part of ssh is on reference = "https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" , "https://devmarketer.io/learn/set-ssh-key-github/"
 
 * ``` git commit -m "commit message"		```to commit with a message.
 * ``` git commit -a -m "Direct commit"          ``` commit files directly,from tracked state. and skip the staging phase.
@@ -36,7 +36,7 @@ configure your username and email(just a local record) so your uploads are marke
 * upon adding a file to .gitignore,you should also run ```git rm --cached [file name] ```command to untrack those ignored files from git.
 
 * ``` git remote add origin https:github.com/USERNAME/REPOSITORY.git ``` to add a remote connection for your project folder to another folder on github.
-* ``` git remote set-url origin https:```github.com/USERNAME/REPOSITORY.git    ``` to update an existing link.
+* ``` git remote set-url origin https://github.com/USERNAME/REPOSITORY.git    ``` to update an existing link.
 * ``` git remote rm origin ``` to remove a link completely,it works only at local pc not on remote.
 
 * ``` git remote           ```to see all remote connections existing.
