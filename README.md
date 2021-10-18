@@ -2,7 +2,7 @@ this is a dummy app for git tutorial
 
 also see https://guides.github.com/features/mastering-markdown/ for markdown guide.
 
-download git from gitscm.com and gitbash is the terminal i used here.
+download git from www.git-scm.com and gitbash is the terminal i used here.
 
 ------------------------------------------
 configure your username and email so your uploads are marked with your name and email. (optional probably)
