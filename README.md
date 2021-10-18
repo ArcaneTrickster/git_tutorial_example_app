@@ -5,7 +5,7 @@ also see https://guides.github.com/features/mastering-markdown/ for markdown gui
 download git from gitscm.com and gitbash is the terminal i used here.
 
 ------------------------------------------
-configure your username and email(just a local record) so your uploads are marked with your name and email.
+configure your username and email so your uploads are marked with your name and email. (optional probably)
 
 * ``` git config --global user.name "Pushkar Shrivastava" ```
 * ``` git config --global user.email "pushkar.shv@gmail.com" ```
