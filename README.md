@@ -14,8 +14,8 @@ configure your username and email so your uploads are marked with your name and 
 * ``` git init                 			   ```initialize local git repository.
 * ``` git add [file]				    ``` add file(s) To index,or to staging, or to be tracked by git. 
 									```git does not track you files unless you instruct git to do so. After files are tracked/staged/indexed, you can go further.
-* ``` git add * ```.[html]  				``` to add all files with html extension to staging or be tracked by git.
-* ``` git add .  or   git add --a   		  ``` to add all files for staging.
+* ``` git add * .[html]  				``` to add all files with html extension to staging or be tracked by git.
+* ``` git add . ``` or   ``` git add --a   		  ``` to add all files for staging.
 * ``` git rm --cached [file name]  			```to remove a file from staging area.
 * ``` git status 					    ``` check status of working tree.
 * ``` git diff					   ``` to see the differences between your staged and unstaged/modified file(s).
@@ -25,14 +25,14 @@ configure your username and email so your uploads are marked with your name and 
 
 * for ssh
 * ``` ssh-keygen -t rsa -b 4096 -C "your_email@example.com" ``` -t = type,-b = byte size, -C = label, It will asks you a few things like what should be the file name in which you want to save the shh key. I use multiple files for multiple accounts, each for each github account.
-* ``` eval ```(ssh-agent -s)  ``` to start ssh agent
+* ``` eval (ssh-agent -s)  ``` to start ssh agent
 * ``` ssh-add ~/.ssh/id_rsa  ``` this add/register the generated ssh to ssh agent
 * ``` clip  ~/.ssh/id_rsa.pub  ``` to copy ssh text to clipboard
 * next part of ssh is on reference = "https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" , "https://devmarketer.io/learn/set-ssh-key-github/"
 
 * ``` git commit -m "commit message"		```to commit with a message.
 * ``` git commit -a -m "Direct commit"          ``` commit files directly,from tracked state. and skip the staging phase.
-* ``` git rm "file name" or git mv "file name" "new file name" =] {to change file names}    ``` having a git keyword before these type of command auto stages the output of command.
+* ``` git rm "file name" ``` or ```git mv "file name" "new file name" ``` to change file names    ``` having a git keyword before these type of command auto stages the output of command.
 * upon adding a file to .gitignore,you should also run ```git rm --cached [file name] ```command to untrack those ignored files from git.
 
 * ``` git remote add origin https:github.com/USERNAME/REPOSITORY.git ``` to add a remote connection for your project folder to another folder on github.
