@@ -77,7 +77,7 @@ configure your username and email so your uploads are marked with your name and 
 
 * ``` git branch   ``` to see all branches you have.
 
-* ``` git branch [branch name]     ``` to add a branch to your project.while you are in a branch,you cannot see any file created in other branches.
+* ``` git branch [branch name]     ``` to add a branch to your project.while you are in a branch,you cannot see any file created in other branches. this command does not execute if you have just initialized git and haven't added and performed your first commit.
 
 * ``` git checkout [branch name]    ``` to switch to the specified branch...by defaulf all projects have a master branch.
 
